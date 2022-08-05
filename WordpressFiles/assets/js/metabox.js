@@ -1,1 +1,0 @@
-jQuery(document).ready(function(){jQuery("#travel-master-ui-tabs").tabs()});
