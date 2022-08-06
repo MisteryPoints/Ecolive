@@ -11303,7 +11303,7 @@ textarea.form-control-lg {
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../public/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../public/img/Header.png") no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -11359,7 +11359,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../public/img/bg-masthead.jpg") no-repeat center center;
+  background: url("../public/img/Footer.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -11378,4 +11378,16 @@ header.masthead h1, header.masthead .h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.wave{
+  color: var(--bs-blue)
+}
+
+.star{
+  color: var(--bs-yellow)
+}
+
+.mount{
+  color: var(--bs-green)
 }

@@ -6,7 +6,8 @@ const Call = () => {
         <div className="container position-relative">
             <div className="row justify-content-center">
                 <div className="col-xl-6">
-                    <h2 className="mb-4">¿Listo para el viaje de tus sueños? Ingresa ya!</h2>
+                    <h2 className="mb-4">¿Listo para el viaje de tus sueños?</h2>
+                    <h2 className="mb-4"> Ingresa ya!</h2>
                     {/* <!-- Signup form-->
                     <!-- * * * * * * * * * * * * * * *-->
                     <!-- * * SB Forms Contact Form * *-->

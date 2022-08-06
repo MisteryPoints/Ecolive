@@ -2,28 +2,30 @@ import React from 'react'
 
 const IconsGrid = () => {
   return (
-    <section className="features-icons bg-light text-center">
+    <section id='nosotros' className="features-icons bg-light text-center">
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">
                     <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <div className="features-icons-icon d-flex"><i className="bi-window m-auto text-primary"></i></div>
-                        <h3>Fully Responsive</h3>
-                        <p className="lead mb-0">This theme will look great on any device, no matter the size!</p>
+                        <div className="features-icons-icon d-flex"><i className="bi bi-tsunami m-auto wave"></i></div>
+                        <h3>Misión</h3>
+                        <p className="lead mb-0">Somos una Agencia de Viajes que ofrece servicios de calidad y confiabilidad.</p>
                     </div>
                 </div>
                 <div className="col-lg-4">
                     <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <div className="features-icons-icon d-flex"><i className="bi-layers m-auto text-primary"></i></div>
-                        <h3>Bootstrap 5 Ready</h3>
-                        <p className="lead mb-0">Featuring the latest build of the new Bootstrap 5 framework!</p>
+                        <div className="features-icons-icon d-flex"><i className="bi bi-stars m-auto star"></i></div>
+                        <h3>Visión</h3>
+                        <p className="lead mb-0">Proporcionar experiencias excepcionales de viajes y eventos mediante la creación de viajes inspiradores.</p>
                     </div>
                 </div>
                 <div className="col-lg-4">
                     <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                        <div className="features-icons-icon d-flex"><i className="bi-terminal m-auto text-primary"></i></div>
-                        <h3>Easy to Use</h3>
-                        <p className="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+                        <div className="features-icons-icon d-flex"><i className="bi bi-image-alt m-auto mount"></i></div>
+                        <h3>Valores</h3>
+                        <p className="lead mb-0">Respeto al Medio Ambiente.</p>
+                        <p className="lead mb-0">Honestidad. </p>
+                        <p className="lead mb-0">Impacto social.</p> 
                     </div>
                 </div>
             </div>

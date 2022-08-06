@@ -5,24 +5,25 @@ const ImageShowcase = () => {
     <section className="showcase">
         <div className="container-fluid p-0">
             <div className="row g-0">
-                <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{ backgroundImage: `url(img/bg-showcase-1.jpg)` }}></div>
+                <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{ backgroundImage: `url(img/hd1.webp)` }}></div>
                 <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Fully Responsive Design</h2>
-                    <p className="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                    <h2>Rio Partido</h2>
+                    <p className="lead mb-0">Rio Partido es un lugar mágico e increíble bien escondido en la provincia de Hermanas Mirabal en el norte de la República Dominicana.</p>
+                    <p className="lead mb-0">La cascada es un lugar que ningún turista querría perderse!</p>
                 </div>
             </div>
             <div className="row g-0">
-                <div className="col-lg-6 text-white showcase-img" style={{backgroundImage: 'url(img/bg-showcase-2.jpg)'}}></div>
+                <div className="col-lg-6 text-white showcase-img" style={{backgroundImage: 'url(img/hd2.jpg)'}}></div>
                 <div className="col-lg-6 my-auto showcase-text">
-                    <h2>Updated For Bootstrap 5</h2>
-                    <p className="lead mb-0">Newly improved, and full of great utility classNamees, Bootstrap 5 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 5!</p>
+                    <h2>Bahía de las Aguilas</h2>
+                    <p className="lead mb-0">Con sus aguas cristalinas de color turquesa y sin hoteles, tiendas o restaurantes, esta playa de ocho kilómetros de color blanco diamante es reconocida como la más hermosa de República Dominicana. Protegida como parte del Parque Nacional Jaragua, Bahía de Las Águilas está rodeada de un impresionante paisaje kárstico.</p>
                 </div>
             </div>
             <div className="row g-0">
-                <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{backgroundImage: 'url(img/bg-showcase-3.jpg)'}}></div>
+                <div className="col-lg-6 order-lg-2 text-white showcase-img" style={{backgroundImage: 'url(img/hd3.jpg)'}}></div>
                 <div className="col-lg-6 order-lg-1 my-auto showcase-text">
-                    <h2>Easy to Use & Customize</h2>
-                    <p className="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+                    <h2>Las Dunas de Baní</h2>
+                    <p className="lead mb-0 mt-4 ">Arenas de estas dunas son finas y bien seleccionadas, ricas en cuarzo y feldespatos, cuya alimentación procede de los sedimentos arrastrados desde el arroyo Bahía.</p>
                 </div>
             </div>
         </div>
