@@ -1,12 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Image from "next/image";
 
 
 function Card({ imageSource, title, text, url }) {
   return (
     <div className="card text-center bg-dark bg-opacity-75 animate__animated animate__fadeInUp">
       <div className="overflow">
-        <img src={imageSource} alt="a wallpaper" className="card-img-top" />
+        <Image width={450} height={275} src={imageSource} alt="a wallpaper" className="card-img-top" />
       </div>
       <div className="card-body text-light">
         <h4 className="card-title">{title}</h4>
