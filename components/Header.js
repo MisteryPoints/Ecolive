@@ -22,7 +22,7 @@ const Header = () => {
                             <div className="row">
                                 <div className="col">
                                     <input className="form-control form-control-lg" id="emailAddress" type="email" placeholder="Correo Electrónico" data-sb-validations="required,email" />
-                                    <div className="invalid-feedback text-white" data-sb-feedback="emailAddress:required">El Email es obligatorio./</div>
+                                    <div className="invalid-feedback text-white" data-sb-feedback="emailAddress:required">El Email es obligatorio.</div>
                                     <div className="invalid-feedback text-white" data-sb-feedback="emailAddress:email">El Email no es valido.</div>
                                 </div>
                                 <div className="col-auto"><button className="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Enviar</button></div>
